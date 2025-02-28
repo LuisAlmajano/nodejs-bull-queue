@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-bull-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "devts": "tsx watch src/app.ts",
+    "devjs": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/bull": "^4.10.4",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "@types/nodemailer": "^6.4.17",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
+}
